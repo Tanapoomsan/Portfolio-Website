@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <div class="background_img"></div>
+        <nav id="desktop-nav">
+            <div class="logo">Tanapoom Sangsuk</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#certificate">Certificate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hello-nav">
+            <div class="logo">Jane</div>
+            <div class="hello-menu">
+                <div class="hello-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="togglemenu()">About</a></li>
+                    <li><a href="#skill" onclick="togglemenu()">Skill</a></li>
+                    <li><a href="#certificate" onclick="togglemenu()">Certificate</a></li>
+                    <li><a href="#contact" onclick="togglemenu ()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="image/profileimage.png" alt="Jane profile"/>
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">สวัสดีครับ..ผมชื่อ</p>
+                <h1 class="title">เจน</h1>        
+                <p class="section_text_p2">นายธนภูมิ เเสงสุข</p>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2"
+                        onclick="window.open('./Cer/resume.pdf')"
+                        >
+                        Resume
+                    </button> 
+                </div>
+                <div id="socials-container">
+                    <img 
+                      src="image/facebook.png" 
+                      alt="My facebook Profile"
+                      class="icon"
+                      onclick="location.href='https:https://web.facebook.com/profile.php?id=100010748471051'"
+                    />
+                    <img 
+                      src="image/Github.png" 
+                      alt="My Github Profile"
+                      class="icon"
+                      onclick="location.href='https://github.com/'"
+                    />
+                </div>                
+            </div>
+        </section>   
+        <section id="about">
+            <p class="section_text_p1">Get to Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img 
+                    src="image/Proflie2.jpg"
+                    alt="Proflie2"
+                    class="about-pic"
+                    />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img 
+                            src="image/experience.png" 
+                            alt="experience"
+                            class="icon"
+                            />
+                            <h3>Experience</h3>
+                            <p>5 Years <br/>งานขายเเละงานบริการ</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="image/Education.png" 
+                            alt="Education"
+                            class="icon"
+                            />
+                            <h3>Education</h3>
+                            <p>ปริญาญาตรี บริหารธรุกิจ<br/>ปวช.คอมพิวเตอร์ธุรกิจ</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            สวัสดีครับ! ผม เจน มีประสบการณ์การในการทำงานคืองานขายสินค้าเเละบริการ ปัจจุบันทำงานตำเแหน่งผู้ช่วยผู้จัดการร้าน
+                            สามารถทำงานร่วมกับเป็นผู้อื่นได้ดี บริหารคนได้ระดับหนึ่ง 
+                        </p>
+                        <div class="text-ul">
+                            <ul style="list-style-type:none;">
+                                <li>ชื่อ:นายธนภูมิ แสงสุข ชื่อเล่น:เจน</li>
+                                <li>เกิดวันที่: 16 ธันวาคม พ.ศ.2540 อายุ: 27 ปี หมู่เลือด:A</li>
+                                <li>เชื้อชาติ:ไทย สัญชาติ:ไทย ศาสนา:พุธ</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+            <img src="image/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#skill'"
+            />
+        </section>
+        <section id="skill">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Skill</h1>
+            <div class="Skill-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="skill-sub-title">Programming Language</h2>
+                        <div class="article-container">
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Low</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>python</h3>
+                                    <p>low</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>SQL</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="skill-sub-title">General Skills</h2>
+                        <div class="article-container">
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>ใบขับขี่ รถยนต์</h3>
+                                    <p>ID 66006677</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>ใบขับขี่ รถจักรยานยนต์</h3>
+                                    <p>ID 64014172</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>พิมพ์ดีดภาษาอังกฤษ</h3>
+                                    <p>ความเร็ว 40 WPM</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img 
+                                src="image/checkmark.png" 
+                                alt="checkmark"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>พิมพ์ดีดภาษาไทย</h3>
+                                    <p>ความเร็ว 37 WPM</p>
+                                </div>
+                            </article>
+                        </div>
+                  </div>
+                </div>
+            </div>
+            <img src="image/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#certificate'"
+            />
+        </section>   
+        <section id="certificate">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Certificate</h1>
+            <div class="skill-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                            src="image/certificate1.png" 
+                            alt="cer1"
+                            class="certificate-img"
+                            />
+                        </div>
+                        <h2 class="skill-sub-title certificate-title">C#: การเขียนโปรแกรมเชิงวัตถุ (Object Oriented Programming-OOP)</h2>
+                        <div class="btn-container">
+                            <button 
+                            class="btn btn-color-2 certificate-btn"
+                            onclick="location.href='https://app.futureskill.co/api/certificate?courseId=309&userId=128684'">
+                            เปิดใบรับรอง
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                            src="image/certificate2.png" 
+                            alt="cer1"
+                            class="certificate-img"
+                            />
+                        </div>
+                        <h2 class="skill-sub-title certificate-title">Advanced For C# Programming</h2>
+                        <div class="btn-container">
+                            <button 
+                            class="btn btn-color-2 certificate-btn"
+                            onclick="location.href='https://app.futureskill.co/api/certificate?courseId=310&userId=128684'">
+                            เปิดใบรับรอง
+                            </button>
+                        </div>
+                    </div>    
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                            src="image/certificate3.png" 
+                            alt="cer1"
+                            class="certificate-img"
+                            />
+                        </div>
+                        <h2 class="skill-sub-title certificate-title">Build Hands-On A Project : C# Programming</h2>
+                        <div class="btn-container">
+                            <button 
+                            class="btn btn-color-2 certificate-btn"
+                            onclick="location.href='https://app.futureskill.co/api/certificate?courseId=311&userId=128684'">
+                            เปิดใบรับรอง
+                            </button>
+                        </div>
+                    </div>    
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                            src="image/certificate4.png" 
+                            alt="cer1"
+                            class="certificate-img"
+                            />
+                        </div>
+                        <h2 class="skill-sub-title certificate-title">สร้างเว็บไซต์จากเริ่มต้นจนถึงมือโปร ด้วย HTML5/CSS3/JavaScript</h2>
+                        <div class="btn-container">
+                            <button 
+                            class="btn btn-color-2 certificate-btn"
+                            onclick="location.href='https://app.futureskill.co/api/certificate?courseId=58&userId=128684'">
+                            เปิดใบรับรอง
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                            src="image/certificate5.png" 
+                            alt="cer1"
+                            class="certificate-img"
+                            />
+                        </div>
+                        <h2 class="skill-sub-title certificate-title">Get started with Programming รวมสิ่งที่ต้องรู้ ก่อนเดินสู่เส้นทางโปรแกรมเมอร์</h2>
+                        <div class="btn-container">
+                            <button 
+                            class="btn btn-color-2 certificate-btn"
+                            onclick="location.href='https://app.futureskill.co/api/certificate?courseId=94&userId=128684'">
+                            เปิดใบรับรอง
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                            src="image/certificate12.png" 
+                            alt="cer1"
+                            class="certificate-img"
+                            />
+                        </div>
+                        <h2 class="skill-sub-title certificate-title">จัดการฐานข้อมูลอย่างมีประสิทธิภาพ พร้อมวิเคราะห์ข้อมูลที่มีในไม่กี่อึดใจด้วย SQL Command</h2>
+                        <div class="btn-container">
+                            <button 
+                            class="btn btn-color-2 certificate-btn"
+                            onclick="location.href='https://app.futureskill.co/api/certificate?courseId=309&userId=128684'">
+                            กำลังศึกษา
+                            </button>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <img src="image/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+            />
+        </section>
+        <section id="contact">
+            <p class="section_text_p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="image/email.png" 
+                    alt="Email"
+                    class="icon contact-icon"
+                    />
+                    <p><a href="mailto:janezooz09@gmail.com">Janezooz09@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="image/tell-icon-10.jpg" alt="Tell"
+                    class="icon contact-icon"
+                    />
+                    <p>Phone number</p>
+                    <p>085-573-8926</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#certificate">Certificate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <p>Portfolio Website HTML CSS JS (ธนภูมิ)</p>
+          </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
